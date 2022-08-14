@@ -42,4 +42,4 @@ System → Scripts → + → Name:CheckUpdate → Policy: read, write, test, pol
  :local TelegramBotToken "your-telegram-bot-token"
  :local TelegramChatID "your-telegram-chatid";
  ```
- 4. Run the script and enjoy it :hand
+ 4. Run the script and enjoy it :ok_hand:
