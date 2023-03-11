@@ -35,7 +35,7 @@ System → Scripts → + → Name:CheckUpdate → Policy: read, write, test, pol
     $TGSendMessage Token=$TelegramBotToken ChatID=$TelegramChatID Text=$TelegramMessageText;
 }
 
-:log info $TelegramMessageText;
+:log warning $TelegramMessageText;
 ```
 3. Set your Telegram Bot Token and Telegram ChatID
  ```
